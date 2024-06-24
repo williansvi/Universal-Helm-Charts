@@ -1,0 +1,76 @@
+apiVersion: v1
+entries:
+  cronjob:
+  - apiVersion: v1
+    created: "2024-06-24T16:27:48.173770579Z"
+    description: The Universal Cronjob Helm Chart
+    digest: 754f379c1ad03e532ee7e00d4dd308f92bb6bda851bf5d634779d917e88f3dbe
+    home: https://github.com/williansvi/Universal-Helm-Charts
+    keywords:
+    - cronjob
+    - helm
+    maintainers:
+    - email: williansvi@gmail.com
+      name: Willians Vivanco
+    name: cronjob
+    sources:
+    - https://github.com/williansvi/Universal-Helm-Charts/charts/deployment
+    urls:
+    - https://github.com/williansvi/Universal-Helm-Charts/releases/download/cronjob-1.0.6/cronjob-1.0.6.tgz
+    version: 1.0.6
+  cronjob-multi:
+  - apiVersion: v1
+    created: "2024-06-24T16:27:48.254845416Z"
+    description: The Universal Cronjob Multi Helm Chart, to spin up many similar cronjobs
+    digest: de10f088a32cb5d23fd0676ff24f3e25a0ceef32c100abea77e99bb4d15cfdd3
+    home: https://github.com/williansvi/Universal-Helm-Charts
+    keywords:
+    - cronjob
+    - cronjob-multi
+    - helm
+    maintainers:
+    - email: williansvi@gmail.com
+      name: Willians Vivanco
+    name: cronjob-multi
+    sources:
+    - https://github.com/williansvi/Universal-Helm-Charts/charts/deployment
+    urls:
+    - https://github.com/williansvi/Universal-Helm-Charts/releases/download/cronjob-multi-1.0.5/cronjob-multi-1.0.5.tgz
+    version: 1.0.5
+  deployment:
+  - apiVersion: v1
+    created: "2024-06-24T16:27:48.334462735Z"
+    description: The Universal Deployment Helm Chart
+    digest: 126e63b28cca80e502fcd034d1924aae6d63af1dddf05ddf8af96127ec25e727
+    home: https://github.com/williansvi/Universal-Helm-Charts
+    keywords:
+    - deployment
+    - helm
+    maintainers:
+    - email: williansvi@gmail.com
+      name: Willians Vivanco
+    name: deployment
+    sources:
+    - https://github.com/williansvi/Universal-Helm-Charts/charts/
+    urls:
+    - https://github.com/williansvi/Universal-Helm-Charts/releases/download/deployment-1.0.14/deployment-1.0.14.tgz
+    version: 1.0.14
+  statefulset:
+  - apiVersion: v1
+    created: "2024-06-24T16:27:48.424573928Z"
+    description: The Universal Statefulset Helm Chart
+    digest: 9b146054c7a96f02b55b4d0b8d84514cc6eb9d9f1f911f280b3b7f2017f73574
+    home: https://github.com/williansvi/Universal-Helm-Charts
+    keywords:
+    - statefulset
+    - helm
+    maintainers:
+    - email: williansvi@gmail.com
+      name: Willians Vivanco
+    name: statefulset
+    sources:
+    - https://github.com/williansvi/Universal-Helm-Charts/charts/deployment
+    urls:
+    - https://github.com/williansvi/Universal-Helm-Charts/releases/download/statefulset-1.0.5/statefulset-1.0.5.tgz
+    version: 1.0.5
+generated: "2024-06-24T16:27:48.424578366Z"
