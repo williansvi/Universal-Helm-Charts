@@ -97,7 +97,7 @@ spec:
 {{- with .Values.initContainers }}
       {{- range . }}
         - name: {{ .name }}
-          image: "{{ .image }}:{{ template "get-release-tag" . }}"
+          image: {{ .image }}
           command: {{ .command }}
           env:
             {{ .env | toYaml | indent 12 }}
