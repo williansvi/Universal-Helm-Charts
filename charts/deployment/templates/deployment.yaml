@@ -94,10 +94,15 @@ spec:
 
       # If we have any init containers
       initContainers:
-{{- with .Values.initContainers.env }}
-        - name: {{ template "name" . }}-db-migrations
-          image: "{{ template "get-repository" . }}:{{ template "get-release-tag" . }}"
-{{ toYaml . | indent 10 }}
+{{- with .Values.initContainers }}
+      {{- range . }}
+        - name: {{ .name | default (template "name" .) }}
+          image: {{ .image | default ("{{ template "get-repository" . }}:{{ template "get-release-tag" . }}") }}
+          command: {{ .command }}
+          env:
+            {{ .env | toYaml | indent 10 }}
+      {{- end}}
+# {{ toYaml . | indent 8 }}
 {{- end }}
       # Our list of container(s)
       containers:
