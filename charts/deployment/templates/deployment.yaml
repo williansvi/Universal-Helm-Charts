@@ -96,7 +96,7 @@ spec:
       initContainers:
 {{- with .Values.initContainers }}
       {{- range . }}
-        - name: "{{ template "name" . }}-db-migrations"
+        - name: {{ .name }}
           image: "{{ .image }}:{{ template "get-release-tag" . }}"
           command: {{ .command }}
           env:
