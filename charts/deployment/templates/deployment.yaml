@@ -95,14 +95,7 @@ spec:
       # If we have any init containers
       initContainers:
 {{- with .Values.initContainers }}
-      {{- range . }}
-        - name: {{ .name }}
-          image: {{ .image }}
-          command: {{ .command }}
-          env:
-            {{ .env | toYaml | indent 12 }}
-      {{- end}}
-# {{ toYaml . | indent 8 }}
+{{ toYaml . | indent 8 }}
 {{- end }}
       # Our list of container(s)
       containers:
