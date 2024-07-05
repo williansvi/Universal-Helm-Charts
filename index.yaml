@@ -39,6 +39,23 @@ entries:
     version: 1.0.5
   deployment:
   - apiVersion: v1
+    created: "2024-07-05T22:44:20.503121426Z"
+    description: The Universal Deployment Helm Chart
+    digest: b219bd16dedd2ccbdafdee145ac3879ec92403631a4f18370335eb954545183d
+    home: https://github.com/williansvi/Universal-Helm-Charts
+    keywords:
+    - deployment
+    - helm
+    maintainers:
+    - email: williansvi@gmail.com
+      name: Willians Vivanco
+    name: deployment
+    sources:
+    - https://github.com/williansvi/Universal-Helm-Charts/charts/
+    urls:
+    - https://github.com/williansvi/Universal-Helm-Charts/releases/download/deployment-1.0.22/deployment-1.0.22.tgz
+    version: 1.0.22
+  - apiVersion: v1
     created: "2024-07-05T22:40:08.404794096Z"
     description: The Universal Deployment Helm Chart
     digest: ffe8e1fbb38a5c073d5d4f3dc0ad1e6a1a61fa7fdb02b96b05f2bb7ac8ca128b
@@ -192,4 +209,4 @@ entries:
     urls:
     - https://github.com/williansvi/Universal-Helm-Charts/releases/download/statefulset-1.0.5/statefulset-1.0.5.tgz
     version: 1.0.5
-generated: "2024-07-05T22:40:08.404830183Z"
+generated: "2024-07-05T22:44:20.503167984Z"
