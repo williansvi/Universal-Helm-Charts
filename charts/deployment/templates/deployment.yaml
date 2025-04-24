@@ -128,6 +128,8 @@ spec:
 {{ toYaml .Values.lifecycle | indent 12 }}
 {{- end }}
           env:
+            - name: DD_TRACE_HEADER_TAGS
+              value: 'Authorization,x-fanki-country'
             # Default env variables we want all containers to have
             - name: "POD_NAME"
               valueFrom:
